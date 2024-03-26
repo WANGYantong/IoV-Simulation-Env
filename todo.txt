@@ -1,5 +1,5 @@
 basic architecture with vehicle moving(done)
-add MBS & RSU class
+add MBS & RSU node class
 MBS-RSU connection edge
 MBS & RSU communication scope
 vechile-RSU-MBS communication link
@@ -7,7 +7,8 @@ computation delay
 transmission delay
 queue buffer+queuing delay
 message type
-caching performance
+caching function
+caching performance metric
 
 
 

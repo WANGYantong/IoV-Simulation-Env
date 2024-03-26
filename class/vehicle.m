@@ -1,4 +1,4 @@
-classdef vehicle < handle
+classdef Vehicle < handle
     %VEHICLE simulate the vechile in IoV
 
     properties
@@ -8,11 +8,10 @@ classdef vehicle < handle
         lane=1; % the lane vehicle running on, start from 1
         length=5; % the length of vehicle, the value varies according to the type
         direction='East'; % 'East' or 'West'
-        type='vehicle';
     end
 
     methods
-        function obj=vehicle(vehicleId,position,speed,lane,length,direction)
+        function obj=Vehicle(vehicleId,position,speed,lane,length,direction)
             obj.vehicleID=vehicleId;
             obj.position=position;
             obj.speed=speed;

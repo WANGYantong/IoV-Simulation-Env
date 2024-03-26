@@ -24,7 +24,7 @@ end
 
 message='Hello';
 commNetwork.broadcastMessage(message);
-status=commNetwork.sendMessage(car2.vehicleID, car3.vehicleID, message);
+commNetwork.sendMessage(car2.vehicleID, car3.vehicleID, message);
 
 commNetwork=commNetwork.removeVehicle(car2);
 status=commNetwork.sendMessage(car1.vehicleID, car2.vehicleID, message);
